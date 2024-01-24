@@ -28,7 +28,7 @@ buildmason COMMAND [OPTIONS] [ARGS]...
 ### Basic Flask Project
 ```bash
 
-buildmason basic-project
+buildmason basic-flask-project
 ```
 
 This command will generate a basic Flask project structure. This is a simple Flask project that creates `/` route and renders an index.html page.
@@ -44,12 +44,13 @@ This command will generate a basic Flask project structure. This is a simple Fla
 ├── config.py
 ├── requirements.txt
 └── run.py
+````
 
 ### Flask REST API Project
 ```bash
 buildmason rest-api
 ```
-This command will generate a Flask project with REST API configuration. This is a simple Flask project for a REST API with user data. The project defines a user data model and creates/queries the data
+This command will generate a Flask project with REST API configuration. This is a simple Flask project for a REST API with user data. The project defines a user data model and creates/queries the data. [Project template link](https://github.com/Worm4047/buildmason-flask-rest/tree/main/%7B%7Bcookiecutter.project_name%7D%7D)
 
 #### Project Structure
 ```
@@ -77,7 +78,7 @@ This command will generate a Flask project with REST API configuration. This is 
 ├── venv/ (virtual environment)
 ├── requirements.txt
 ```
-[Project template link](https://github.com/Worm4047/buildmason-flask-rest/tree/main/%7B%7Bcookiecutter.project_name%7D%7D)
+
 ### Flask Blueprint Project
 ```bash
 buildmason blueprint
